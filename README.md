@@ -38,8 +38,8 @@ flutter run
 - Add your Gemini API key in .env:<br>
 GEMINI_API_KEY=your_api_key_here
 
-### Download
-[Download the APK] (https://github.com/anggtpd/Gemini-Chat-App/blob/main/app-debug.apk)
+## ⬇️ Download
+[Download the APK]<br>(https://github.com/anggtpd/Gemini-Chat-App/blob/main/app-release.apk)
 
 ## 🛠️ Built With
 - Flutter
