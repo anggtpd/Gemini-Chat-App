@@ -35,11 +35,10 @@ flutter pub get
 flutter run
 
 
-##🛠️ Built With
-Flutter
-Dart
-Gemini API (google_generative_ai: ^0.4.6)
+## 🛠️ Built With
+- Flutter
+- Dart
+- Gemini API (google_generative_ai: ^0.4.6)
 
-
-##🌟 Contributing
-Pull requests are welcome! If you find any issues, feel free to open an issue or create a pull request.
+## 🌟 Contributing
+- Pull requests are welcome! If you find any issues, feel free to open an issue or create a pull request.
