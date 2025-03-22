@@ -26,7 +26,7 @@ A Flutter-based AI chat app powered by Gemini. Built with ❤️ using Flutter a
 
 ## 📲 Installation
 1. Clone the repository:
-git clone https://github.com/anggtp/Gemini-Chat-App.git
+git clone https://github.com/anggtpd/Gemini-Chat-App.git
 
 2. Install dependencies:
 flutter pub get
@@ -39,7 +39,7 @@ flutter run
 GEMINI_API_KEY=your_api_key_here
 
 ### Download
-[Download the APK] (https://github.com/anggtp/Gemini-Chat-App/releases/download/v1.0.0/app-debug.apk)
+[Download the APK] (https://github.com/anggtpd/Gemini-Chat-App/releases/download/v1.0.0/app-debug.apk)
 
 ## 🛠️ Built With
 - Flutter
