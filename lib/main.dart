@@ -3,9 +3,8 @@ import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:gemini_chat_app/chat_page.dart';
 
 
-void main() async {
-  WidgetsFlutterBinding.ensureInitialized();
-  await dotenv.load(fileName: ".env");
+Future<void> main() async {
+  await dotenv.load(fileName: ".env"); // <-- This should work in release too
   runApp(const MyApp());
 }
 
