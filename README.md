@@ -1,16 +1,45 @@
-# gemini_chat_app
+# 🤖 Gemini AI Chat  
+A Flutter-based AI chat app powered by Gemini. Built with ❤️ using Flutter and Dart.
 
-A new Flutter project.
+---
 
-## Getting Started
+## 🚀 Features
+✅ AI-powered responses using Gemini  
+✅ Clean UI (optimized for Android)  
+✅ Simple state management with `setState`  
+✅ Image and text handling  
 
-This project is a starting point for a Flutter application.
+---
 
-A few resources to get you started if this is your first Flutter project:
+## ⚠️ Limitations
+⚠️ Currently works only on **Android** (Not responsive on other platforms)  
+⚠️ State management using `setState` (May update to Provider or Riverpod in future)  
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 🖥️ Screenshots
+| Chat Interface | AI Response |
+|---------------|-------------|
+| <img src="flutter_01.png" width="300"> |
+
+---
+
+## 📲 Installation
+1. Clone the repository:
+git clone https://github.com/<your-username>/gemini-ai-chat.git
+
+2. Install dependencies:
+flutter pub get
+
+3. Run the app:
+flutter run
+
+
+🛠️ Built With
+Flutter
+Dart
+Gemini API (google_generative_ai: ^0.4.6)
+
+
+🌟 Contributing
+Pull requests are welcome! If you find any issues, feel free to open an issue or create a pull request.
