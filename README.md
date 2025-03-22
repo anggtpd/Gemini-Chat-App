@@ -34,6 +34,9 @@ flutter pub get
 3. Run the app:
 flutter run
 
+## ⚙️ Configuration
+Add your Gemini API key in .env:
+GEMINI_API_KEY=your_api_key_here
 
 ## 🛠️ Built With
 - Flutter
