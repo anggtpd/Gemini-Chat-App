@@ -18,8 +18,8 @@ A Flutter-based AI chat app powered by Gemini. Built with ❤️ using Flutter a
 ---
 
 ## 🖥️ Screenshots
-| Chat Interface | AI Response |
-|---------------|-------------|
+| Chat Interface |
+|---------------|
 | <img src="flutter_01.png" width="300"> |
 
 ---
