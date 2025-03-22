@@ -1,10 +1,10 @@
 import 'dart:io';
 import 'package:flutter/material.dart';
+import 'package:flutter_dotenv/flutter_dotenv.dart';
 import 'package:google_generative_ai/google_generative_ai.dart';
 import 'package:image_picker/image_picker.dart';
 import 'widgets/chat_bubble.dart';
 
-const apiKey = 'AIzaSyCH3PGEVxfdcQ6K-MpSxWsED01-Mgop1Cs';  
 
 class ChatPage extends StatefulWidget {
   const ChatPage({super.key});
@@ -14,18 +14,26 @@ class ChatPage extends StatefulWidget {
 }
 
 class _ChatPageState extends State<ChatPage> {
-  final model = GenerativeModel(
-      model: 'gemini-1.5-flash-latest',
-      apiKey: apiKey,
-      // generationConfig: GenerationConfig(maxOutputTokens: 512,)
-  );
-  
+  late final GenerativeModel model;
 
+  @override
+  void initState() {
+    super.initState();
+
+    final apiKey = dotenv.env['GEMINI_API_KEY']; // Load key dynamically
+    model = GenerativeModel(
+      model: 'gemini-1.5-flash-latest',
+      apiKey: apiKey!,
+    );
+  }
+
+  
  Future<String> getTextFromImage(File photo, String message) async {
   try {
+    final apiKey = dotenv.env['GEMINI_API_KEY'];
     final model = GenerativeModel(
       model: 'gemini-1.5-flash-latest',
-      apiKey: apiKey,
+      apiKey: apiKey!,
     );
 
     final prompt = TextPart(message);
