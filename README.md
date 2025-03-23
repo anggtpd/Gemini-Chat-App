@@ -42,8 +42,8 @@ GEMINI_API_KEY=your_api_key_here
 [Download the APK]<br>(https://github.com/anggtpd/Gemini-Chat-App/blob/main/app-release.apk)
 
 ## 🛠️ Built With
-- Flutter
-- Dart
+- Flutter 3.24.3
+- Dart 3.5.3
 - Gemini API (google_generative_ai: ^0.4.6)
 
 ## 🌟 Contributing
